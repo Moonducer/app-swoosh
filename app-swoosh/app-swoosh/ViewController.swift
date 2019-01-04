@@ -23,6 +23,8 @@ class ViewController: UIViewController {
         backgoundImage.frame = view.frame */
     }
 
-
+    @IBAction func unwindFromSkillVC(unwindSegue: UIStoryboardSegue) {
+        
+    }
 }
 
