@@ -15,6 +15,7 @@
 		D921E67221DE1A97001ABCAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D921E67121DE1A97001ABCAC /* Assets.xcassets */; };
 		D921E67521DE1A97001ABCAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D921E67321DE1A97001ABCAC /* LaunchScreen.storyboard */; };
 		D921E67E21DE24FD001ABCAC /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D921E67D21DE24FD001ABCAC /* BorderButton.swift */; };
+		D9BE570221E1F04C0051FBD2 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BE570121E1F04C0051FBD2 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		D921E67421DE1A97001ABCAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D921E67621DE1A97001ABCAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D921E67D21DE24FD001ABCAC /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
+		D9BE570121E1F04C0051FBD2 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		D90AAA9A21DFB8040042D14E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D9BE570121E1F04C0051FBD2 /* Player.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				D921E66D21DE1A96001ABCAC /* WelcomeVC.swift in Sources */,
 				D921E66B21DE1A96001ABCAC /* AppDelegate.swift in Sources */,
 				D90AAA9E21DFB9470042D14E /* SkillVC.swift in Sources */,
+				D9BE570221E1F04C0051FBD2 /* Player.swift in Sources */,
 				D921E67E21DE24FD001ABCAC /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
